@@ -25,7 +25,7 @@ import {
     threejs,
 } from "../assets";
 
-export const navLinks = [
+const navLinks = [
     {
         id: "about",
         title: "About",
@@ -46,15 +46,15 @@ const services = [
         icon: web,
     },
     {
-        title: "React Native Developer",
-        icon: mobile,
+        title: "React Developer",
+        icon: reactjs,
     },
     {
         title: "Backend Developer",
         icon: backend,
     },
     {
-        title: "Content Creator",
+        title: "3D CAD Modeler",
         icon: creator,
     },
 ];
@@ -262,4 +262,4 @@ const projects = [
     },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences, testimonials, projects, navLinks };
